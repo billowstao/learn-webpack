@@ -1,0 +1,24 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "author": "billowstao",
+  "private": true,
+  "scripts": {
+    "build": "pnpm exec turbo run build",
+    "lint": "pnpm exec turbo run lint",
+    "dev": "pnpm exec turbo run dev"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8",
+    "pnpm": ">=7"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.2.16"
+  },
+  "packageManager": "pnpm@7.1.8"
+}
