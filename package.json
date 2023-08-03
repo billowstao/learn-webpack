@@ -19,7 +19,7 @@
   ],
   "devDependencies": {
     "turbo": "^1.2.16",
-    "webpack": "^5.73.0"
+    "webpack": "^5.76.0"
   },
   "packageManager": "pnpm@7.1.8"
 }
